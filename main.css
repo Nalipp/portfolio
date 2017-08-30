@@ -134,6 +134,26 @@ aside a:hover {
   font-size: 16px;
 }
 
+#github-img, #udacity-img {
+  margin: 10px 5px 0 0;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#github-img {
+  background-image: url('images/github.png');
+  background-position: -35px -10px;
+  background-size: 100px;
+}
+
+#udacity-img {
+  background-image: url('images/udacity.svg');
+  background-size: 26px;
+}
+
 #project-img1 {
   background-image: url('images/project1.jpg');
 }
