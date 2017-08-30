@@ -1,6 +1,6 @@
-##Portfolio
+## Portfolio
 
-###Things to do
+### Things to do
 
 clean data for d3 graphic
 
