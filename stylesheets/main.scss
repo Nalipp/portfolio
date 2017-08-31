@@ -32,13 +32,12 @@ header {
   flex-wrap: wrap;
 }
 
-#profile-img {
+#profileImg {
   display: inline-block;
   background-image: url('../images/grey_blue_profile.jpg');
   background-size: 225px;
   background-repeat: no-repeat;
   height: 200px;
-  min-width: 200px;
   max-width: 200px;
   border-radius: 200px;
   flex: 1;
@@ -48,6 +47,11 @@ header {
 #title {
   text-align: center;
   letter-spacing: 4px;
+}
+
+#title h3 span {
+  display: block;
+  margin-top: 9px;
 }
 
 header h1 {
@@ -97,22 +101,25 @@ section {
   font-size: 12px;
 }
 
-
 #contact p {
   padding: 4px;
+}
+
+#contact #userLinks {
+  width: 80px;
 }
 
 #projects {
   margin: 30px 0;
 }
 
-.project-display {
+.projectDisplay {
   display: flex;
   flex-wrap: wrap;
   margin: 80px 0;
 }
 
-.project-img {
+.projectImg {
   display: inline-block;
   min-height: 200px;
   min-width: 300px;
@@ -121,22 +128,22 @@ section {
   flex: 1;
 }
 
-.project-img:hover {
+.projectImg:hover {
   cursor: pointer;
 }
 
-.project-img + ul {
+.projectImg + ul {
   margin: 20px;
   list-style: none;
   flex: 2;
 }
 
-.project-img + ul li {
+.projectImg + ul li {
   padding: 10px 0;
   font-size: 16px;
 }
 
-#github-img, #udacity-img {
+#githubImg, #udacityImg {
   margin: 10px 5px 0 0;
   display: inline-block;
   height: 30px;
@@ -145,22 +152,23 @@ section {
   cursor: pointer;
 }
 
-#github-img {
+#githubImg {
   background-image: url('../images/github.png');
   background-position: -35px -10px;
   background-size: 100px;
 }
 
-#udacity-img {
+#udacityImg {
   background-image: url('../images/udacity.svg');
+  background-position: 0 2px;
   background-size: 26px;
 }
 
-#project-img1 {
+#projectImg1 {
   background-image: url('../images/project1.jpg');
 }
 
-#project-img2 {
+#projectImg2 {
   background-image: url('../images/project2.jpg');
 }
 
@@ -169,7 +177,7 @@ section {
     width: 80%;
     margin: 80px auto;
   }
-  #profile-img {
+  #profileImg {
     background-size: 140px;
     background-position: -10px 0px;
     height: 100px;
@@ -183,6 +191,18 @@ section {
     flex: 100%;
   }
 
+  #contact {
+    margin-top: 150px;
+  }
+
+  #profileImg {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    margin-left: -50px;
+  }
+
+
   header h1 {
     font-size: 40px;
   }
@@ -193,18 +213,24 @@ section {
   }
 
   #contact {
-    display: flex;
-    flex-wrap: wrap;
     padding: 20px 0 0 0;
+  }
+
+  #contact p, #contact a {
+    display: inline-block;
+    padding: 4px 0px;
+    text-align: center
   }
 
   #contact p {
     display: block;
     width: 100%;
-    padding: 4px 0px;
-    margin: auto;
-    text-align: center
   }
+
+  #contact #userLinks {
+    margin: auto;
+  }
+
   aside {
     margin-top: 40px;
   }
