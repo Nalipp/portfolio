@@ -1,10 +1,17 @@
-* { padding: 0; margin: 0; }
+@import 'reset';
+
+$fontStack:    Helvetica, sans-serif;
+$darkGrey: #444;
+$grey: #666;
+$lightGrey: #eee;
+$white: #fff;
+$black: #111;
 
 body {
-  font-family: helvetica;
+  font-family: $fontStack;
   width: 60%;
   margin: 100px auto;
-  color: #444;
+  color: $darkGrey;
 }
 
 li {
@@ -16,7 +23,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #444;
+  color: $darkGrey;
 }
 
 header {
@@ -34,7 +41,6 @@ header {
   min-width: 200px;
   max-width: 200px;
   border-radius: 200px;
-  /* border: 14px solid #eee; */
   flex: 1;
   margin: 0 auto;
 }
@@ -51,13 +57,13 @@ header h1 {
 
 h3 {
   text-transform: uppercase;
-  color: #666;
+  color: $grey;
   font-size: 20px;
   text-align: left;
   letter-spacing: 4px;
   padding: 60px 0 10px 20px;
   margin-top: 20px;
-  border-bottom: 10px solid #eee;
+  border-bottom: 10px solid $lightGrey;
 }
 
 #title h3 {
@@ -65,23 +71,23 @@ h3 {
   font-size: 14px;
 }
 
-aside {
+section {
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 70px;
-}
 
-aside a {
-  padding: 6px 10px;
-  border: 1px solid #000;
-  margin: 10px 3px;
-}
+  a {
+    padding: 6px 10px;
+    border: 1px solid $black;
+    margin: 10px 3px;
+  }
 
-aside a:hover {
-  color: #777;
-  border: 1px solid #777;
+  a:hover {
+    color: $grey;
+    border: 1px solid $grey;
+  }
 }
 
 #contact {
@@ -106,10 +112,6 @@ aside a:hover {
   margin: 80px 0;
 }
 
-.project-img:hover {
-  cursor: pointer;
-}
-
 .project-img {
   display: inline-block;
   min-height: 200px;
@@ -117,6 +119,10 @@ aside a:hover {
   background-size: 300px;
   background-repeat: no-repeat;
   flex: 1;
+}
+
+.project-img:hover {
+  cursor: pointer;
 }
 
 .project-img + ul {
