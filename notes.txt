@@ -1,0 +1,9 @@
+repeated boxes
+
+heading
+titles with lines
+subtitles
+text
+lists
+divs
+
