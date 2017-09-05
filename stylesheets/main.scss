@@ -70,6 +70,9 @@ main div {
   text-align: right;
 }
 .list-links a {
+  font-size: 14px;
+}
+li .list-links a {
   font-size: 12px;
 }
 .list-links a::after {
@@ -89,6 +92,7 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 header h3 span {
   display: block;
@@ -182,8 +186,6 @@ header h3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 70px;
-
   a {
     padding: 6px 10px;
     border: 1px solid $black;
@@ -194,6 +196,12 @@ header h3 {
   a:hover {
     color: $grey;
     border: 1px solid $grey;
+  }
+
+  h2 {
+    display: block;
+    width: 100%;
+    border: none;
   }
 }
 

@@ -86,6 +86,9 @@ main div {
   text-align: right; }
 
 .list-links a {
+  font-size: 14px; }
+
+li .list-links a {
   font-size: 12px; }
 
 .list-links a::after {
@@ -99,7 +102,8 @@ main div {
 header {
   display: flex;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 60px; }
 
 header h3 span {
   display: block;
@@ -176,8 +180,7 @@ header h3 {
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 70px; }
+  flex-wrap: wrap; }
   #technologies a {
     padding: 6px 10px;
     border: 1px solid #111;
@@ -186,6 +189,10 @@ header h3 {
   #technologies a:hover {
     color: #666;
     border: 1px solid #666; }
+  #technologies h2 {
+    display: block;
+    width: 100%;
+    border: none; }
 
 #projects {
   margin: 30px 0; }
