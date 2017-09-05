@@ -25,7 +25,7 @@ h1 {
 li {
   letter-spacing: 1.2px;
   list-style: none;
-  padding-bottom: 14px;
+  padding-bottom: 10px;
   line-height: 22px;
 }
 a {
@@ -52,6 +52,15 @@ h4 {
   text-transform: none;
   letter-spacing: 1px;
 }
+h5 {
+  color: $darkGrey;
+  font-size: 14px;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+main div {
+  margin-top: 60px;
+}
 .share {
   display: inline-block;
   width: 50%;
@@ -60,8 +69,16 @@ h4 {
 .right {
   text-align: right;
 }
-main div {
-  margin-top: 60px;
+.list-links a {
+  font-size: 12px;
+}
+.list-links a::after {
+  content: " |";
+  color: $black;
+  font-weight: bold;
+}
+.list-links a:last-child::after {
+  content: "";
 }
 
 // ************************************************************
@@ -138,26 +155,21 @@ header h3 {
 }
 
 // ************************************************************
-// leadership
+// organizations
 // ************************************************************
 
-.leadership ul {
+.organizations ul {
   margin-top: 10px;
   padding-left: 1em; 
 }
-.leadership li {
+.organizations li {
   list-style: disc; 
 }
-.leadership li a {
-  font-size: 12px;
+.organizations h3 {
+  padding-top: 34px;
 }
-.leadership li a::after {
-  content: " |";
-  color: $black;
-  font-weight: bold;
-}
-.leadership li a:last-child::after {
-  content: "";
+.organizations h3:first-of-type {
+  padding-top: 0;
 }
 
 
