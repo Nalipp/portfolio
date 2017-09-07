@@ -137,9 +137,9 @@ header h3 {
   padding: 4px; }
 
 #contact #userLinks {
-  width: 80px; }
+  width: 120px; }
 
-#githubImg, #udacityImg {
+#githubImg, #twitterImg, #linkedInImg {
   margin: 10px 5px 0 0;
   display: inline-block;
   height: 30px;
@@ -152,8 +152,13 @@ header h3 {
   background-position: -35px -10px;
   background-size: 100px; }
 
-#udacityImg {
-  background-image: url("../images/udacity.svg");
+#twitterImg {
+  background-image: url("../images/twitter.png");
+  background-position: 0 2px;
+  background-size: 26px; }
+
+#linkedInImg {
+  background-image: url("../images/linkedIn.png");
   background-position: 0 2px;
   background-size: 26px; }
 
