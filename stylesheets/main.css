@@ -74,6 +74,11 @@ h5 {
   padding: 10px 0;
   letter-spacing: 1px; }
 
+.subH3 {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: none; }
+
 main div {
   margin-top: 60px; }
 
