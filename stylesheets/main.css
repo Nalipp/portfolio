@@ -259,13 +259,14 @@ header h3 {
     margin: 30px auto; }
 
   #profileImg {
+    display: absolute;
     background-size: 140px;
     background-position: -10px 0px;
     height: 100px;
     width: 100px;
     min-width: 100px;
     max-width: 100px;
-    margin-top: 140px; }
+    top: 180px; }
 
   #intro {
     flex: 100%; }
