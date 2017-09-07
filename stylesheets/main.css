@@ -176,6 +176,14 @@ header h3 {
 .organizations h3:first-of-type {
   padding-top: 0; }
 
+.organizations h5 a {
+  color: #444;
+  border: 1px solid #444;
+  padding: 2px 4px;
+  margin-right: 2px;
+  border-radius: 4px;
+  font-size: 10px; }
+
 #technologies {
   text-transform: uppercase;
   display: flex;
@@ -200,19 +208,31 @@ header h3 {
 .projectDisplay {
   display: flex;
   flex-wrap: wrap;
-  margin: 80px 0; }
+  margin: 50px 0; }
 
-#projectImg1 {
-  background-image: url("../images/project1.jpg"); }
+.projectDisplay h3 {
+  width: 100%; }
 
-#projectImg2 {
-  background-image: url("../images/project2.jpg"); }
+.projectDisplay ul {
+  padding-left: 0; }
+
+#portfolio_tstory {
+  background-image: url("../images/portfolio_tstory.jpg"); }
+
+#portfolio_vim {
+  background-image: url("../images/portfolio_vim.jpg"); }
+
+#portfolio_share_my_repo {
+  background-image: url("../images/portfolio_share_my_repo.jpg"); }
+
+#portfolio_cbsa {
+  background-image: url("../images/portfolio_cbsa.jpg"); }
 
 .projectImg {
   display: inline-block;
-  min-height: 200px;
-  min-width: 300px;
-  background-size: 300px;
+  min-height: 100px;
+  min-width: 200px;
+  background-size: 200px;
   background-repeat: no-repeat;
   flex: 1; }
 
@@ -220,13 +240,18 @@ header h3 {
   cursor: pointer; }
 
 .projectImg + ul {
-  margin: 20px;
-  list-style: none;
   flex: 2; }
 
 .projectImg + ul li {
-  padding: 10px 0;
-  font-size: 16px; }
+  list-style: none;
+  font-size: 14px; }
+
+.about ul li {
+  padding-left: 20px; }
+
+.about .title {
+  font-weight: bold;
+  padding-left: 0; }
 
 @media (max-width: 950px) {
   body {
@@ -297,6 +322,12 @@ header h3 {
   .share, .right {
     display: block;
     width: 100%;
-    text-align: left; } }
+    text-align: left; }
+
+  .projectDisplay {
+    display: block; }
+
+  .projectDisplay ul li {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=main.css.map */
