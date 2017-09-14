@@ -207,16 +207,19 @@ header h3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  a {
+  p {
     padding: 6px 10px;
     border: 1px solid $black;
     margin: 10px 3px;
     color: $darkGrey;
+    cursor: default;
   }
-
+  a {
+    color: $darkGrey;
+    cursor: pointer;
+  }
   a:hover {
     color: $grey;
-    border: 1px solid $grey;
   }
 
   h2 {
@@ -278,12 +281,21 @@ header h3 {
 // ************************************************************
 // about
 // ************************************************************
-.about ul li {
+#about ul li {
   padding-left: 20px; 
 }
-.about .title {
+#about .title {
   font-weight: bold;
   padding-left: 0; 
+}
+
+// ************************************************************
+// experience
+// ************************************************************
+
+#experience h5 {
+  padding: 0;
+  font-style: italic;
 }
 
 // ************************************************************
@@ -294,6 +306,11 @@ header h3 {
   body {
     width: 90%;
     margin: 30px auto;
+  }
+  p {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 0;
   }
   #profileImg {
     display: absolute;
@@ -366,6 +383,9 @@ header h3 {
     display: block;
   }
   .projectDisplay ul li {
+    font-size: 12px;
+  }
+  h4 {
     font-size: 12px;
   }
   

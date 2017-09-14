@@ -203,14 +203,17 @@ header h3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-  #technologies a {
+  #technologies p {
     padding: 6px 10px;
     border: 1px solid #111;
     margin: 10px 3px;
-    color: #444; }
+    color: #444;
+    cursor: default; }
+  #technologies a {
+    color: #444;
+    cursor: pointer; }
   #technologies a:hover {
-    color: #666;
-    border: 1px solid #666; }
+    color: #666; }
   #technologies h2 {
     display: block;
     width: 100%;
@@ -260,17 +263,26 @@ header h3 {
   list-style: none;
   font-size: 14px; }
 
-.about ul li {
+#about ul li {
   padding-left: 20px; }
 
-.about .title {
+#about .title {
   font-weight: bold;
   padding-left: 0; }
+
+#experience h5 {
+  padding: 0;
+  font-style: italic; }
 
 @media (max-width: 950px) {
   body {
     width: 90%;
     margin: 30px auto; }
+
+  p {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 0; }
 
   #profileImg {
     display: absolute;
@@ -343,6 +355,9 @@ header h3 {
     display: block; }
 
   .projectDisplay ul li {
+    font-size: 12px; }
+
+  h4 {
     font-size: 12px; } }
 
 /*# sourceMappingURL=main.css.map */
