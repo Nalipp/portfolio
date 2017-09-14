@@ -38,11 +38,14 @@ h1 {
   font-size: 60px;
   padding-bottom: 20px; }
 
-li {
+p, li {
   letter-spacing: 1.2px;
   list-style: none;
   padding-bottom: 10px;
   line-height: 22px; }
+
+p {
+  line-height: 26px; }
 
 a {
   text-decoration: none;
@@ -139,7 +142,8 @@ header h3 {
   font-size: 12px; }
 
 #contact p {
-  padding: 4px; }
+  padding: 4px 0 8px 4px;
+  line-height: 8px; }
 
 #contact #userLinks {
   width: 120px; }
