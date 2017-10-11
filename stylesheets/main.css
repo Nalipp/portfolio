@@ -206,7 +206,7 @@ header h3 {
 #technologies {
   text-transform: uppercase;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap; }
   #technologies p {
     padding: 6px 10px;
