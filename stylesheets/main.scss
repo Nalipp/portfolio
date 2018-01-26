@@ -91,11 +91,6 @@ li .list-links a {
 .list-links a:last-child::after {
   content: "";
 }
-#pdf {
-  display: inline-block;
-  font-size: 20px;
-  padding: 60px 0;
-}
 
 // ************************************************************
 // header
@@ -305,6 +300,22 @@ header h3 {
 #about h5 {
   padding: 0;
   font-style: italic;
+}
+
+#about p {
+  padding: 10px 20px;
+}
+
+// ************************************************************
+// media queries
+// ************************************************************
+
+.pdf {
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+.pdf h2 {
+  margin-bottom: 5px;
 }
 
 // ************************************************************

@@ -35,22 +35,17 @@ import files without http request required in a css @import
 
 ### Things to do / notes
 
-change all of the links for launch school
-
 link top technologies to code repos
 
-add Udacity courses react and advanced web development
-
 check all links
-
-seed data for projects
-
-fix favicon
 
 spell check
 
 update resume 
 
+fix favicon
+
 update github favorite repos
 
-better styling for resume pdf (smaller, capitalize?)
+seed data for both node projects
+
