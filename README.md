@@ -2,6 +2,7 @@
 
 ### Github pages deploy workflow
 ```
+// make changes from master and rebase and push in gh-pages
 git add .
 git commit -m ''
 git push origin master
@@ -16,11 +17,11 @@ git checkout master
 ### Scss
 compile scss to css
 ```
-$ sass stylesheets/main.scss stylesheets/main.css         
   // compile main.scss to main.css
+$ sass stylesheets/main.scss stylesheets/main.css         
 
-$ sass --watch stylesheets/main.scss:stylesheets/main.css 
   // continuous watch and and compile
+$ sass --watch stylesheets/main.scss:stylesheets/main.css 
 ```
 import files without http request required in a css @import
 ```
