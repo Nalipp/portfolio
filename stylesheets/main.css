@@ -202,10 +202,11 @@ header h3 {
   padding-top: 0; }
 
 .organizations h5 a {
+  display: inline-block;
   color: #444;
   border: 1px solid #444;
   padding: 2px 4px;
-  margin-right: 2px;
+  margin: 1px 2px 1px 0;
   border-radius: 4px;
   font-size: 10px; }
 
@@ -243,6 +244,9 @@ header h3 {
 
 .projectDisplay ul {
   padding-left: 0; }
+
+#portfolio_statsu {
+  background-image: url("../images/portfolio_statsu.jpg"); }
 
 #portfolio_tstory {
   background-image: url("../images/portfolio_tstory.jpg"); }

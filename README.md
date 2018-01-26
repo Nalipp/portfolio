@@ -35,26 +35,22 @@ import files without http request required in a css @import
 
 ### Things to do / notes
 
-xswitch interests and philiosophy
-
-change experience to workhistory and condence to one section
-
 change all of the links for launch school
-
-remove vim master and replace with statsu
-
-include learch tech job prep in community involvement
-
-add flexbox to top technologies
 
 link top technologies to code repos
 
-remove populatoin sorting project but put jQuery link into top technologies
+add Udacity courses react and advanced web development
+
+check all links
 
 seed data for projects
+
+fix favicon
 
 spell check
 
 update resume 
+
+update github favorite repos
 
 better styling for resume pdf (smaller, capitalize?)
