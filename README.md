@@ -35,13 +35,23 @@ import files without http request required in a css @import
 
 ### Things to do / notes
 
-switch interests and philiosophy
+xswitch interests and philiosophy
+
+change experience to workhistory and condence to one section
+
+change all of the links for launch school
 
 remove vim master and replace with statsu
 
-reduce experience to one section
-
 include learch tech job prep in community involvement
+
+add flexbox to top technologies
+
+link top technologies to code repos
+
+remove populatoin sorting project but put jQuery link into top technologies
+
+seed data for projects
 
 spell check
 
