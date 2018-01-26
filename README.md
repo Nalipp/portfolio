@@ -2,13 +2,14 @@
 
 ### Github pages deploy workflow
 ```
-// make changes from master and rebase and push in gh-pages
+// make changes from master, rebase and push in gh-pages
 git add .
 git commit -m ''
 git push origin master
 ```
 
 ```
+// do not make any changes or run the compiler when in the gh-pages branch
 git checkout gh-pages
 git rebase master
 git push origin gh-pages
@@ -32,10 +33,18 @@ import files without http request required in a css @import
 @import 'reset';
 ```
 
-### Things to do
+### Things to do / notes
 
-clean data for d3 graphic
+switch interests and philiosophy
 
-add tooltips hovers to d3 graphic
+remove vim master and replace with statsu
 
-update resume and create downloadable pdf
+reduce experience to one section
+
+include learch tech job prep in community involvement
+
+spell check
+
+update resume 
+
+better styling for resume pdf (smaller, capitalize?)
