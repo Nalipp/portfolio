@@ -36,6 +36,8 @@ import files without http request required in a css @import
 ### Things to do / notes
 
 link top technologies to code repos
+1. find and open code repos in tabs
+2. update html
 
 check all links
 
@@ -49,3 +51,4 @@ update github favorite repos
 
 seed data for both node projects
 
+update LinkedIn projects
