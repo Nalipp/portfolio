@@ -220,20 +220,23 @@ header h3 {
   justify-content: space-around;
   flex-wrap: wrap;
   p {
-    padding: 6px 10px;
-    border: 1px solid $black;
+    padding: 5px 10px;
+    border: 1.4px solid $darkGrey;
     margin: 10px 3px;
     color: $darkGrey;
     cursor: default;
+    border-radius: 2px;
+  }
+  .techLink:hover {
+    transform: translate(-1px, 1px);
+    cursor: pointer;
+    border-color: $grey;
+    color: $grey;
   }
   a {
     color: $darkGrey;
     cursor: pointer;
   }
-  a:hover {
-    color: $grey;
-  }
-
   h2 {
     display: block;
     width: 100%;
