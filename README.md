@@ -35,18 +35,10 @@ import files without http request required in a css @import
 
 ### Things to do / notes
 
-check all links
-
-remove target=""
-
-spell check
-
-update resume 
-
-fix favicon
-
-update github favorite repos
+update github readmes
 
 seed data for both node projects
 
 update LinkedIn projects
+
+fix favicon
