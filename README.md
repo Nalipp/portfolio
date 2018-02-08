@@ -37,8 +37,14 @@ import files without http request required in a css @import
 
 update github readmes
 
+update project descriptions
+
+add project with learn teach code to portfolio (use linkedIn description
+
 seed data for both node projects
 
 update LinkedIn projects
 
 fix favicon
+
+add ajax
