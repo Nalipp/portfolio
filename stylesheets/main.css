@@ -282,7 +282,7 @@ header h3 {
   font-style: italic; }
 
 #about p {
-  padding: 10px 20px; }
+  padding: 6px; }
 
 .pdf {
   font-size: 14px;
@@ -323,12 +323,18 @@ header h3 {
     left: 50%;
     margin-left: -50px; }
 
+  header {
+    margin-bottom: 20px; }
+
   header h1 {
     font-size: 40px; }
 
   header h3 {
     text-align: center;
     padding-left: 0; }
+
+  main h5 {
+    font-size: 12px; }
 
   #contact {
     padding: 20px 0 0 0; }
