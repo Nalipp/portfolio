@@ -9,7 +9,7 @@ git push origin master
 ```
 
 ```
-// do not make any changes or run the compiler when in the gh-pages branch
+// stop the compiler, do not make any changes or run the compiler when in the gh-pages branch
 git checkout gh-pages
 git rebase master
 git push origin gh-pages
